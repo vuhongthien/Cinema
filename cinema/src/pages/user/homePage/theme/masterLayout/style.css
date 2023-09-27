@@ -3,7 +3,7 @@ body {
     padding: 0;
     height: 100vh;
     background: rgb(26, 21, 68);
-    background: radial-gradient(circle, rgba(26, 21, 68, 1) 0%, rgba(31, 15, 50, 1) 11%, rgba(12, 66, 101, 1) 64%, rgba(25, 6, 45, 1) 100%);
+    background: radial-gradient(circle, rgba(26, 21, 68, 1) 0%, rgba(31, 15, 50, 1) 11%, rgb(8, 43, 66) 64%, rgba(25, 6, 45, 1) 100%);
 }
 
 @font-face {
@@ -94,5 +94,5 @@ a {
     position: sticky;
     top: 0;
     background: rgb(26, 21, 68);
-    background: radial-gradient(circle, rgba(26, 21, 68, 1) 0%, rgba(12, 66, 101, 1) 90%, rgba(25, 6, 45, 1) 100%);
+    background: radial-gradient(circle, rgba(26, 21, 68, 1) 0%, rgb(8, 42, 65) 90%, rgba(25, 6, 45, 1) 100%);
   }
