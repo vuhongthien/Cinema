@@ -5,7 +5,7 @@ import Header from '../header';
 const MasterLayout = ({children, ...props}) => {
   return (
     <>
-    <div {...props}> 
+    <div className='gradient-bg' {...props}> 
        <Header />
        {children}
        <Footer /> 

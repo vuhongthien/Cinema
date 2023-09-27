@@ -1,7 +1,7 @@
 import { memo } from 'react';
 
 const Footer = () => {
-  return <h1>fasdfdf</h1>;
+  return <h1>Footer</h1>;
     
 };
 
