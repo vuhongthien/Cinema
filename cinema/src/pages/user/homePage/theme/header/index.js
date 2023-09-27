@@ -38,9 +38,9 @@ const Header = () => {
         <span class="left-pan"><i class="fa fa-microphone"></i></span>
       </div>
       <div className='option col-md-5 mt-5 d-flex justify-content-between p-2'>
-        <div class="option1 p-4 pt-2 pb-2 col-auto">All</div>
-        <div class="option2 p-4 pt-2 pb-2 col-auto">Movies</div>
-        <div class="option3 p-4 pt-2 pb-2 col-auto">TV shows</div>
+        <a class="option1 p-4 pt-2 pb-2 col-auto" href='#'>All</a>
+        <a class="option2 p-4 pt-2 pb-2 col-auto" href='#'>Movies</a>
+        <a class="option3 p-4 pt-2 pb-2 col-auto" href='#'>TV shows</a>
       </div>
     </div>
   </>;
