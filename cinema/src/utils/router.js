@@ -1,6 +1,7 @@
 export const ROUTERS ={
     USER: {
         HOME:"",
-        PROFILE:"abc",
+        MOVIES:"movies-page",
+        TVSHOW:"tv-show-page",
     }    
 };

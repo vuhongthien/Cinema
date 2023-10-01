@@ -21,10 +21,6 @@ a {
     text-decoration: none;
 }
 
-.form {
-
-    position: relative;
-}
 
 .form .fa-search {
 
@@ -43,23 +39,13 @@ a {
 
 }
 
-.left-pan {
-    padding-left: 7px;
-
-}
-
-.left-pan i {
-
-    padding-left: 10px;
-}
 
 .form-input {
-
+    color: #d1d5db;
     height: 55px;
     text-indent: 33px;
     border-radius: 10px;
-    background: none;
-    border: 2px solid #0000002b;
+    background: none;    
 }
 
 .form-input:focus {
@@ -73,7 +59,7 @@ a {
     border-radius: 10px;
 }
 
-.option1.p-4.pt-2.pb-2 {
+.option.p-4.pt-2.pb-2.active {
     background: #7B6EF6;
     border-radius: 10px;
 }

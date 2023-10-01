@@ -1,20 +1,25 @@
+import React from "react"; // Add this import statement
 import { Routes, Route } from "react-router-dom";
 import MasterLayout from "./pages/user/homePage/theme/masterLayout";
-import HomePage from "./pages/user/homePage"; // Import the Test component
-
+import HomePage from "./pages/user/homePage";
 import { ROUTERS } from "./utils/router";
-import test from "./pages/user/homePage/test";
+import MoviesPage from "./pages/user/homePage/theme/pages/movies";
+import TvShowPage from "./pages/user/homePage/theme/pages/tvshow";
 
 const renderUserRouter = () => {
   const userRouters = [
     {
       path: ROUTERS.USER.HOME,
-      component: HomePage ,
+      component: HomePage,
     },
     {
-      path: ROUTERS.USER.PROFILE,
-      component: test ,
-    }
+      path: ROUTERS.USER.MOVIES,
+      component: MoviesPage ,
+    },
+    {
+      path: ROUTERS.USER.TVSHOW,
+      component: TvShowPage ,
+    },
   ];
 
   return (
